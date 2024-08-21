@@ -1,5 +1,6 @@
 import { X, AtSign, Plus } from "lucide-react";
 import type { FormEvent } from "react";
+import { Button } from "../components/button";
 
 interface InviteGuestsModalProps {
   closeGuestsModal: () => void;
@@ -66,8 +67,17 @@ export function InviteGuestsModal({
             Convidar
             <Plus className="size-5" />
           </button>
+
+          <Button type="submit" variant="primary">
+            Convidar
+            <Plus className="size-5" />
+          </Button>
         </form>
       </div>
     </div>
   );
+}
+
+{
+  /* identificar outros componentes e aplicar o mesmo conceito que foi aplicado no botão */
 }

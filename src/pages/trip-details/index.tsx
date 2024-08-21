@@ -54,3 +54,7 @@ export function TripDetailsPage() {
     </div>
   );
 }
+
+{
+  /* identificar outros componentes e aplicar o mesmo conceito que foi aplicado no botão */
+}

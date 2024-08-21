@@ -8,3 +8,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <App />
   </React.StrictMode>
 );
+
+{
+  /* identificar outros componentes e aplicar o mesmo conceito que foi aplicado no botão */
+}
